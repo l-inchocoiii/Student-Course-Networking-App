@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Schmoodle proto1</string>
+    <string name="username">Username</string>
+    <string name="vassar_college_s">Vassar College\'s...</string>
+    <string name="schmoodle">Schmoodle</string>
+    <string name="or">------------ or ------------</string>
+    <string name="want_to_start_connecting">Want to start connecting?</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

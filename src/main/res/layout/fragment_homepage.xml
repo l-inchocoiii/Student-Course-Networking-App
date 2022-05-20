@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2beb5"
+    tools:context=".View.HomepageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp">
+
+        <Button
+            android:id="@+id/recc"
+            android:layout_width="181dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="80dp"
+            android:text="Get A Reccomendation"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pClasses"
+            android:layout_width="218dp"
+            android:layout_height="168dp"
+            android:layout_marginTop="536dp"
+            android:text="Classes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="16dp"
+            android:text="Search:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hpMaj"
+            android:layout_width="91dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="476dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/maven_pro"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Major:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/pName"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hpMaj2"
+            android:layout_width="347dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="640dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/maven_pro"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="----------------------------------------------------"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/pName"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/searchbar"
+            android:layout_width="184dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:hint="Rui Meireles"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pMajor"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="480dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Major"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="Logout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.084"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/initializesearch"
+            android:layout_width="97dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="16dp"
+            android:text="Connect!"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.993"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/editprofile"
+            android:layout_width="181dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="140dp"
+            android:text="Edit Profile"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pYear"
+            android:layout_width="103dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="352dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Year"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hpName"
+            android:layout_width="91dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="248dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/maven_pro"
+            android:inputType="textPersonName"
+            android:text="Name:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            app:layout_constraintEnd_toEndOf="@+id/pName"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hpClasses"
+            android:layout_width="91dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="536dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/maven_pro"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Classes:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/pName"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hpYear"
+            android:layout_width="91dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="80dp"
+            android:autofillHints=""
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/maven_pro"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Year:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/pName"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hpName" />
+
+        <TextView
+            android:id="@+id/pName"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="244dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Profile Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pDash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="724dp"
+            android:text="Dashboard"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/eventHeader"
+            android:layout_width="51dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="780dp"
+            android:text="Events:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="796dp"
+            android:text="No Events to Show"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/viewHM"-->
+<!--            android:layout_width="112dp"-->
+<!--            android:layout_height="515dp"-->
+<!--            android:layout_marginTop="188dp"-->
+<!--            android:text="Hashmap"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <Button
+            android:id="@+id/makeEvent"
+            android:layout_width="109dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="764dp"
+            android:text="Make New Event"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
